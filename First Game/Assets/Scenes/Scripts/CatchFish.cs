@@ -1,18 +1,21 @@
 using UnityEngine;
 
-public class Basket : MonoBehaviour
+public class CatchFish : MonoBehaviour
 {
-    private Rigidbody2D rb2d;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
         
+    }
+
+    void OnCollisionEnter2D(Collision2D col){
+        Destroy(col.gameObject);
+        GameManager.Instance.incScore(1);
     }
 }

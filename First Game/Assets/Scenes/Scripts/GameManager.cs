@@ -1,7 +1,28 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    public static GameManager Instance {get; private set;}
+
+    int score = 0;
+    public TextMeshProUGUI scoreText;
+
+    void Awake(){
+        if(Instance == null){
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else{
+            Destroy(gameObject);
+        }
+    }
+
+    public void incScore(int sc){
+        score += sc;
+        scoreText.text = "Score:" + score;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
