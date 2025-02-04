@@ -9,6 +9,7 @@ public class Fish : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        rb2d.gravityScale = 0.6f;
     }
 
     // Update is called once per frame
