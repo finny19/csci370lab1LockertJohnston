@@ -21,7 +21,6 @@ public class DroppingFish : MonoBehaviour
     {
         var position = new Vector2(Random.Range(-9.0f, 9.0f), 5); // source 1
         Instantiate(fish, position, Quaternion.identity); // source 1
-        GameManager.Instance.incScore(1);
     }
 }
 
