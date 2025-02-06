@@ -26,7 +26,10 @@ public class GameManager : MonoBehaviour
 
     public void incScore(int sc){
         score += sc;
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Score:" + score;
+
+        
+
     }
 
     public void missScore(int mc){
