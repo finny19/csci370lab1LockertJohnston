@@ -27,15 +27,13 @@ public class GameManager : MonoBehaviour
     public void incScore(int sc){
         score += sc;
         scoreText.text = "Score:" + score;
-
-        
-
     }
 
     public void missScore(int mc){
         tracker += mc;
         misses = 5 - tracker;
         if (misses == 0){
+            Destroy(gameObject);
             SceneManager.LoadScene(0);
         }
         missText.text = "Misses left: " + misses;
