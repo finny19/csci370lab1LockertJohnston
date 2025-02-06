@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance {get; private set;}
 
-    int score = 0;
+    public int score = 0;
     public TextMeshProUGUI scoreText;
 
     int misses = 0;
@@ -49,5 +49,9 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public int getScore(){
+        return score;
     }
 }
