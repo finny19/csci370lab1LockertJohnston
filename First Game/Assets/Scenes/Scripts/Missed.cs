@@ -21,6 +21,6 @@ public class Missed : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-        // GameManager.Instance.incScore(1);
+        GameManager.Instance.missScore(1);
     }
 }

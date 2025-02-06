@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     int score = 0;
     public TextMeshProUGUI scoreText;
 
-    // int score = 0;
+    int misses = 0;
+    int tracker = 0;
     public TextMeshProUGUI missText;
 
     void Awake(){
@@ -27,9 +28,10 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + score;
     }
 
-    public void missScore(int sc){
-        score += sc;
-        scoreText.text = "Score: " + score;
+    public void missScore(int mc){
+        tracker += mc;
+        misses = 5 - tracker;
+        missText.text = "Misses left: " + misses;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
