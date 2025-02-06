@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class Collide : MonoBehaviour
 {
+
+    private AudioSource audioSource;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,6 +25,7 @@ public class Collide : MonoBehaviour
             Destroy(col.gameObject);
         }
         GameManager.Instance.incScore(1);
+        audioSource.Play();
     }
 }
 
