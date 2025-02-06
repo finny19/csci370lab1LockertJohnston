@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -31,6 +32,9 @@ public class GameManager : MonoBehaviour
     public void missScore(int mc){
         tracker += mc;
         misses = 5 - tracker;
+        if (misses == 0){
+            SceneManager.LoadScene(0);
+        }
         missText.text = "Misses left: " + misses;
     }
 
