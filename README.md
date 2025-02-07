@@ -23,14 +23,20 @@ Fin's Joys and Struggles -
   
 Leigh's Joys and Struggles -
 
-  Joys:
+  Joys:     
+    I really enjoyed learning how to make this because I love creating things. Being able to mix creativity with coding is a very fulfilling experience for me!
     
   Struggles:
+    I struggled with getting this project started and getting on the same page as my partner. I had a lot of problems with getting VS to work properly with Unity.
     
 
 Assets:
 
-  - [Please fill out the other assets because I only know the audio ones]
+  - Cat Paw abd Fish - https://opengameart.org/content/cats-pixel-art
+  - Fish Sale Sign (Edited) - https://www.flickr.com/photos/stlphotoblogger/170619930/
+  - Background Image - https://www.deviantart.com/kpopermaper/art/Clean-Beach-background-289516480
+  - Boat Shop - https://opengameart.org/content/small-boat-shop-16x16
+  - Market Stand - https://opengameart.org/content/market-stand
   - Cat meowing audio: "cat meow" - https://pixabay.com/sound-effects/cat-meow-6226/ 
   - Cat hissing audio: "hiss3" - https://pixabay.com/sound-effects/hiss3-103123/
 
@@ -46,4 +52,11 @@ Fin's contributions:
 
 Leigh's contributions:
 
-  -
+  - Created the initial Unity Project
+  - Started the first steps of adding objects and scripts
+  - Coded user input to move the cat paw
+  - Created Game Manager
+  - Created scoring base
+  - Added Score text
+  - Found and added visual assets
+  - Made the game get more diffifult as the player gets more points (spawn rate of fish gets higher)
