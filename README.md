@@ -58,5 +58,6 @@ Leigh's contributions:
   - Created Game Manager
   - Created scoring base
   - Added Score text
+  - Fixed replay when misses counter hits 0
   - Found and added visual assets
   - Made the game get more diffifult as the player gets more points (spawn rate of fish gets higher)
