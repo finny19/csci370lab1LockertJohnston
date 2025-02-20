@@ -40,24 +40,6 @@ Assets:
   - Cat meowing audio: "cat meow" - https://pixabay.com/sound-effects/cat-meow-6226/ 
   - Cat hissing audio: "hiss3" - https://pixabay.com/sound-effects/hiss3-103123/
 
+Contributions
+Fin created the repository while Leigh created the unity project itself. Leigh set up the basics of having a 2D object and starting making scripts, while Fin finalized a lot of it. Fin coded the dropping fish, worked on the counter mechanics, added audio, and uploaded the game to itch.io. Leigh coded the user input, added the visuals, and implimented a difficulty level that increases as the game is played. Some smaller details were done as well; Fin ensured that fish objects would be destroyed when caught or missed, and Leigh fixed the replay ability.
 Fin's contributions:
-
-  - Created the repository.
-  - Made the code that let the fish drop continuously from random x-values in the scene (but a set y-value).
-  - Made the score counter increment when fish are caught and not when they spawn.
-  - Created the miss counter (did not perfect it, but did a lot for it).
-  - Made the fish be destroyed upon being caught or missed (so they did not just continue to exist).
-  - Added audio assets (only the audio assets).
-  - Uploaded to itch.io.
-
-Leigh's contributions:
-
-  - Created the initial Unity Project
-  - Started the first steps of adding objects and scripts
-  - Coded user input to move the cat paw
-  - Created Game Manager
-  - Created scoring base
-  - Added Score text
-  - Fixed replay when misses counter hits 0
-  - Found and added visual assets
-  - Made the game get more diffifult as the player gets more points (spawn rate of fish gets higher)
